@@ -1,11 +1,11 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
-import Img_1 from './img_1.jpg'
-import Img_2 from './img_2.jpg'
-import Img_3 from './img_3.jpg'
-import Img_4 from './img_4.jpg'
-import Img_5 from './img_5.jpg'
-import Img_6 from './img_6.jpg'
+import Img_1 from '../../assets/Projects/img_1.jpg'
+import Img_2 from '../../assets/Projects/img_2.jpg'
+import Img_3 from '../../assets/Projects/img_3.jpg'
+import Img_4 from '../../assets/Projects/img_4.jpg'
+import Img_5 from '../../assets/Projects/img_5.jpg'
+import Img_6 from '../../assets/Projects/img_6.jpg'
 
 
 
