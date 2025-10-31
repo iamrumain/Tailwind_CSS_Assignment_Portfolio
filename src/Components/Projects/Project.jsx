@@ -116,7 +116,7 @@ export const Project = () => {
 
 
 
-          <div className='flex justify-center items-center'>
+          <div className='flex justify-center items-center mt-10'>
                 <button className='text-white bg-[#A53DFF] rounded-md  px-8 p-4 text-[16px] font-semibold hover:bg-[#9228f0] transition duration-200'>
                     More Project
                 </button>
