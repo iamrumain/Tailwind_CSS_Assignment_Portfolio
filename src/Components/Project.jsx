@@ -1,14 +1,62 @@
-import React, { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
+import Img_1 from '../assets/Projects/img_1.jpg'
+import Img_2 from '../assets/Projects/img_2.jpg'
+import Img_3 from '../assets/Projects/img_3.jpg'
+import Img_4 from '../assets/Projects/img_4.jpg'
+import Img_5 from '../assets/Projects/img_5.jpg'
+import Img_6 from '../assets/Projects/img_6.jpg'
+
+const ProjectData = [
+  {
+    "id": 1,
+    "img": Img_1,
+    "title": "ChainFund",
+    "subtitle": "BLOCKCHAIN PROJECT",
+    "desc": "A decentralized crowdfunding platform powered by smart contracts."
+  },
+  {
+    "id": 2,
+    "img": Img_2,
+    "title": "MetaLease",
+    "subtitle": "BLOCKCHAIN PROJECT",
+    "desc": "Blockchain-based solution for secure digital leasing and asset rentals."
+  },
+  {
+    "id": 3,
+    "img":Img_3,
+    "title": "BlockCerts",
+    "subtitle": "BLOCKCHAIN PROJECT",
+    "desc": "Tamper-proof certificate issuance and verification on the blockchain."
+  },
+  {
+    "id": 4,
+    "img": Img_4,
+    "title": "DeTrust Vault",
+    "subtitle": "BLOCKCHAIN PROJECT",
+    "desc": "A non-custodial DeFi wallet with built-in trustless escrow services."
+  },
+  {
+    "id": 5,
+    "img": Img_5,
+    "title": "NFTicket",
+    "subtitle": "BLOCKCHAIN PROJECT",
+    "desc": "NFT-powered event ticketing system to prevent fraud and scalping."
+  },
+  {
+    "id": 6,
+    "img": Img_6,
+    "title": "DAOgenda",
+    "subtitle": "BLOCKCHAIN PROJECT",
+    "desc": "A governance platform enabling transparent DAO decision-making and voting."
+  }
+]
+
+
+
 
 export const Project = () => {
-  const [proData, setProData] = useState([]);
-  useEffect(() => {
-    fetch("./project.json")
-      .then((res) => res.json())
-      .then((data) => setProData(data))
-      .catch((error) => console.error("Error fetching images:", error));
-  }, []);
+
+
 
   return (
     <section className="max-w-[80%] mx-auto px-4 py-16 flex flex-col space-y-14">
@@ -23,7 +71,7 @@ export const Project = () => {
       </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {proData.map((project, index) => (
+        {ProjectData.map((project, index) => (
           <div
             key={index}
             className="bg-white flex flex-col text-center md:text-left rounded-md shadow-md overflow-hidden hover:-translate-y-2 transition-transform duration-300 ease-in-out"
