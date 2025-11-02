@@ -3,7 +3,8 @@ import './App.css'
 import { Navbar } from './Components/Navbar';
 import { Banner } from './Components/Banner';
 import { Process } from './Components/Process';
-import { Project } from './Components/Projects/Project';
+import { Project } from './Components/Project';
+import { WorkTogether } from './Components/WorkTogether';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <Process />
       <Project />
+      <WorkTogether />
     </>
   )
 }

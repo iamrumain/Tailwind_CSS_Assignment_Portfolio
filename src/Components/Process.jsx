@@ -7,7 +7,7 @@ export const Process = () => {
   return (
 
     <section className=" bg-gray-50">
-      <div className=" max-w-7xl md:flex flex-row items-center justify-between mx-auto pt-40 pb-40 gap-30">
+      <div className="max-w-[80%] md:flex flex-row items-center justify-between mx-auto pt-40 pb-40 gap-30">
         <div className="w-full md:w-[50%]  m-auto md:10 flex flex-col space-y-5 text-center md:text-left">
           <h1 className="text-gray-900 text-4xl md:text-5xl font-semibold">Work Process</h1>
           <p className="text-gray-400 text-sm md:text-[18px] font-normal">

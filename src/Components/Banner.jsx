@@ -3,7 +3,7 @@ import Photo from '../assets/IMG_0255.JPG';
 
 export const Banner = () => {
   return (
-    <section className='max-w-7xl mx-auto px-4 py-10 mt-10 gap-10 flex flex-col-reverse md:flex-row justify-between '>
+    <section className='max-w-[80%] mx-auto px-4 py-10 mt-10 gap-10 flex flex-col-reverse md:flex-row justify-between '>
         <div className='w-full md:w-[60%] flex flex-col justify-center space-y-6 text-center md:text-left'>
            <div className='space-y-4'>
                 <h1 className='font-semibold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-gray-900'>

@@ -15,7 +15,7 @@ export const Navbar = () => {
   },[])
   return (
 
-  <nav className='max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4'>
+  <nav className='max-w-[80%] flex flex-wrap items-center justify-between mx-auto p-4'>
 
       <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
         <div className='flex gap-6 items-center '>
