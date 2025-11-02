@@ -23,7 +23,6 @@ export const Process = () => {
 
       <div className="w-full md:w-[50%] justify-center items-center md:flex">
           <div className="flex flex-wrap gap-5 mr-4">
-            {/* <div className="bg-white py-10 px-6 space-y-3 flex flex-col shadow-md rounded-md hover:-translate-y-1 transition duration-300 ease-in-out sm:hover:scale-105"> */}
             <div className="bg-white m-8 md:m-auto py-10 px-6 space-y-3 shadow-md rounded-md flex flex-col items-center text-center md:items-start md:text-left  md:flex-col hover:-translate-y-1 transition duration-300 ease-in-out sm:hover:scale-105">        
               <div className="bg-[#A53DFF] w-18 h-18 flex justify-center items-center rounded-md">
                 <MdOutlineEventNote className="text-white w-6 h-6 " />

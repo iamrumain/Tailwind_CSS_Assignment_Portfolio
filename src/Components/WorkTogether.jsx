@@ -4,10 +4,10 @@ import { FaArrowRight } from "react-icons/fa6";
 export const WorkTogether = () => {
   return (
     <section className="bg-gray-900">
-      <div className="max-w-[80%] mx-auto p-30">
+      <div className="max-w-[80%] mx-auto py-15 pb-20 md:p-30">
         <div className="flex justify-center items-center text-center flex-col space-y-7 ">
           <h1 className="text-white text-4xl md:text-5xl font-semibold">Do you have Project Idia? Let's discuss your project!</h1>
-          <p className="text-gray-300 00 text-sm md:text-lg font-normal">
+          <p className="text-gray-300 text-sm md:text-lg font-normal">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </p>
