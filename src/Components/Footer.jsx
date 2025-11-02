@@ -11,9 +11,9 @@ export const Footer = () => {
 
   return (
     <section className="bg-gray-800 ">
-      <div className="h-[330px] max-w-[80%] mx-auto flex justify-between items-center">
-            <div className="flex justify-between w-full items-center text-center"> 
-                <div className="flex  gap-3 items-center ">
+      <div className="h-[290px] max-w-[80%] mx-auto flex justify-between items-center">
+            <div className="flex justify-between w-full items-center text-center md:mt-30"> 
+                <div className="flex gap-3 items-center ">
                 <h1 className="bg-[#A53DFF] hidden md:flex p-5 py-3  rounded-full text-2xl font-medium text-white">
                     R
                 </h1>
