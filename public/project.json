@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "../public/Projects/img_1.jpg",
+    "img": "../../portfolio/public/Projects/img_1.jpg",
     "title": "ChainFund",
     "subtitle": "BLOCKCHAIN PROJECT",
     "desc": "A decentralized crowdfunding platform powered by smart contracts."
